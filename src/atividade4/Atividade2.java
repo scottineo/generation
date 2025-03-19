@@ -21,7 +21,7 @@ public class Atividade2 {
 		media = (nota1+nota2+nota3+nota4)/4;
 		
 		System.out.printf("Sua média final é %.1f", media);
-		
+		leia.close();
 	}
 
 }

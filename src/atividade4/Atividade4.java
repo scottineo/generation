@@ -21,7 +21,7 @@ public class Atividade4 {
 		resultado = (n1*n2)-(n3*n4);
 		
 		System.out.printf("A diferença entre os produtos é %.2f", resultado);
-
+		leia.close();
 	}
 
 }

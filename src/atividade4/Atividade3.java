@@ -20,7 +20,7 @@ public class Atividade3 {
 		salario_liquido = (salario_bruto+adc_noturno+(hora_extra*5))-descontos;
 		
 		System.out.printf("Este mês, você receberá %.2f.", salario_liquido);
-
+		leia.close();
 	}
 
 }

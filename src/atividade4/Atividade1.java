@@ -16,6 +16,7 @@ public class Atividade1 {
 		novo_salario = salario + abono;
 		
 		System.out.printf("Com um salário inicial de %.2f e abono de %.2f, você receberá %.2f.", salario, abono, novo_salario);
+		leia.close();
 	}
 
 }
