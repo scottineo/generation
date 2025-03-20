@@ -20,7 +20,8 @@ public class Atividade4 {
             System.out.println(
                     "Digite o identidade de gênero do colaborador (1 - Mulher Cis, 2 - Homem Cis, 3 - Não binário, 4 - Mulher Trans, 5 - Homem Trans, 0 - Outros):");
             identidade_genero = leia.nextInt();
-            System.out.println("Digite a especialidade do cargo do colaborador (1 - Backend, 2 - Frontend, 3 - Mobile, 4 - Fullstack");
+            System.out.println(
+                    "Digite a especialidade do cargo do colaborador (1 - Backend, 2 - Frontend, 3 - Mobile, 4 - Fullstack");
             cargo_especialidade = leia.nextInt();
 
             totalPessoas++;

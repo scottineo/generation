@@ -8,7 +8,7 @@ public class Atividade5 {
         int numero = 0;
         Scanner leia = new Scanner(System.in);
 
-        System.out.println("Este programa soma todos os número positivos até que seja inserido o número 0");
+        System.out.println("Este programa soma todos os número positivos inseridos até que seja inserido o número 0");
         do {
             System.out.println("Digite um número: ");
             numero = leia.nextInt();
