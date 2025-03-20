@@ -6,7 +6,7 @@ public class Atividade5 {
     public static void main(String[] args) {
         int quantidade, escolha;
         double preço_final;
-        double cQuente = 10.00;
+        double cachorroQuente = 10.00;
         double xSalada = 15.00;
         double xBacon = 18.00;
         double bauru = 12.00;
@@ -29,7 +29,7 @@ public class Atividade5 {
 
         switch (escolha) {
             case 1:
-                preço_final = quantidade * cQuente;
+                preço_final = quantidade * cachorroQuente;
                 System.out.println("Você escolheu Cachorro Quente");
                 System.out.printf("O valor total é %.2f", preço_final);
                 break;

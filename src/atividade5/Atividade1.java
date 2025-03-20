@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Atividade1 {
     public static void main(String[] args) {
+        //as variáveis foram propostas pelo exercício
         int a, b, c;
 
         Scanner leia = new Scanner(System.in);

@@ -16,16 +16,16 @@ public class Atividade1 {
             System.out.println("Intervalo inválido!");
             leia.close();
         }
-        
-        for (int i = numeroInicial; i <= numeroFinal; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
-                System.out.println("O número " + i + " é divisível por 3 e 5");
-              } 
-            }    
-        for (int i = numeroInicial; i >= numeroFinal; i--) {
-                if (i % 3 == 0 && i % 5 == 0) {
-                    System.out.println("O número " + i + " é divisível por 3 e 5");
-                  } 
-                }       
+
+        for (int contador = numeroInicial; contador <= numeroFinal; contador++) {
+            if (contador % 3 == 0 && contador % 5 == 0) {
+                System.out.println("O número " + contador + " é divisível por 3 e 5");
+            }
+        }
+        for (int contador = numeroInicial; contador >= numeroFinal; contador--) {
+            if (contador % 3 == 0 && contador % 5 == 0) {
+                System.out.println("O número " + contador + " é divisível por 3 e 5");
+            }
+        }
     }
 }
