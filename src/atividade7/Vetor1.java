@@ -12,7 +12,7 @@ public class Vetor1 {
         System.out.println("Digite um número: ");
         numeroInput = leia.nextInt();
 
-        for (int i = 0; i < vetor.length; i++) {
+        for (int i =0; i < vetor.length; i++) {
             if (vetor[i] == numeroInput) {
                 System.out.println("O número " + numeroInput + " está na posição " + i + " do vetor.");
                 encontrado = true;
